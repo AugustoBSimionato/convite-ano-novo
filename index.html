@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="styles.css">
    <title>Ingresso Ano Novo</title>
 </head>
-
 <body>
+   <div id="aviso" class="aviso-container">
+      <div class="aviso-content">
+         <h2>⚠️</h2>
+         <p>Este sistema de ingresso é apenas uma brincadeira, mas as informações do ingresso são verdadeiras.</p>
+         <button onclick="fecharAviso()">Entendi</button>
+      </div>
+   </div>
+
    <div id="intro-container" class="intro-container">
       <div class="intro-content">
-        <h1>Bem-vindo ao nosso evento de Ano Novo!</h1>
-        <p>Clique no botão abaixo para pegar seu ingresso.</p>
-        <button onclick="mostrarIngresso()">Pegar ingresso</button>
+         <h1>Bem-vindo ao nosso evento de Ano Novo!</h1>
+         <p>Clique no botão abaixo para pegar seu ingresso.</p>
+         <button onclick="mostrarIngresso()">Pegar ingresso</button>
       </div>
-    </div>
+   </div>
 
    <main id="main-content" class="ticket-system" style="display: none;">
       <div class="top">
@@ -38,7 +44,7 @@
                <div class="details">
                   <div class="item">
                      <span>No. do ingresso</span>
-                     <h3>6975</h3>
+                     <h3 id="numero-ingresso">Número Aleatório</h3>
                   </div>
                   <div class="item">
                      <span>Data</span>
