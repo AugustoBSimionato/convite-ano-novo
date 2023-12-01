@@ -9,7 +9,6 @@ body {
 }
 
 body {
-  @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
   font-family: 'Ubuntu', sans-serif;
   background-color: #3f32e5;
   height: 100%;
