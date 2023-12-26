@@ -18,7 +18,7 @@ function mostrarIngresso() {
 function adicionarNomesFamilia(nomes) {
   var nomesFamiliaElement = document.getElementById("nomes-familia");
   if (nomesFamiliaElement) {
-    nomesFamiliaElement.textContent = "Convidados: " + nomes;
+    nomesFamiliaElement.textContent = "Convidado(s): " + nomes;
   }
 }
 
